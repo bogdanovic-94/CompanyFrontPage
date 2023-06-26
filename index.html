@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Project, web dev, css, html, company, landing page">
+    <meta name="description" content="A landing page for a fictional company">
+    <meta name="theme-color" content="#ccc">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Certified G</title>
+</head>
+<body>
+    <div class="navBar">
+        <div class="container flex">
+            <h2 class="logo"><a href="index.html">Certified&G</a></h2>
+            <nav>
+            <ul>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="team.html">Teachers</a></li>
+                <li><a href="press.html">Press</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+     </div>
+
+            <section class="hero">
+                <div class="container grid">
+                    <div class="hero-message">
+                        <h1>Master of all trades - <span>Possible</span></h1>
+                        <p>Become a master of all trades IT.
+                           Learn to conceptualize, design and develop a website.
+                           Fill out the form and get the snapsohot of
+                           our courses.
+                        </p>
+                        <a href="features.html" class="btn btn-outline">Learn More</a>
+                    </div>
+
+                    <div class="hero-form card-bg">
+                        <form action="">
+                            <legend>Get a snapshot</legend>
+                            <div class="form-field">
+                                <label for="uName"> Name</label>
+                                <input type="text" name="uName" placeholder="Your name" id="uName" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="uEmail"> Email</label>
+                                <input type="email" name="uName" placeholder="Your Email" id="uEmail" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="uStatus"> Student</label>
+                                <input type="radio" name="student"  id="student">
+                                <label for="employee">No Job</label>
+                                <input type="radio" name="unemployed"  id="unemployed" >
+                                <label for="unlisted">Unlisted</label>
+                                <input type="radio" name="unlisted"  id="unlisted">
+                            </div>
+                            <input type="submit" value="Request a snapshot" class="btn btn-main">
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="statistics">
+                <div class="container">
+                    <h3 class="stat-heading txtcenter my-1">
+                        The only platform you need in order to become a master of everything. Our numbers don't lie. After completion of a program you are certified G.
+                    </h3>
+                    <div class="grid grid-3 txtcenter my-4">
+                        <div>
+                            <i class="fa-solid fa-graduation-cap fa-3x"></i>
+                            <h4>3234+</h4>
+                            <p class="supportText">Students Enrolled</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-clipboard-check fa-3x"></i>
+                            <h4>89%</h4>
+                            <p class="supportText">Success Rate</p>
+                        </div>
+                        <div>
+                            <i class="fa-sharp fa-regular fa-clock fa-3x"></i>
+                            <h4>300+</h4>
+                            <p class="supportText">Hours of content</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+          <section class="web">
+                <div class="container grid">
+                    <img src="imgs/webdev.png" alt="">
+                    <div class="card-bg">
+                        <h3>Inovative Learning Approach</h3>
+                    </div>
+                    <div class="card-bg">
+                        <h3>Track your progress</h3>
+                    </div>
+                </div>
+          </section>
+
+
+          <section class="data-centar my-3">
+                <div class="container grid">
+                    <div class="txtcenter">
+                        <h2>Your data is safe in our data center</h2>
+                        <p class="my-1">
+                            Our data center is encypted and secured. Providing you with maximum protection, and ensuring your data is safe and protected.
+                            <a href="#" class="btn btn-dark my-2">Learn More</a>
+                        </p>
+                    </div>
+                    <img src="imgs/data.webp" alt="">
+                </div>
+          </section>
+
+
+          <section class="topics">
+            <h2 class="txtcenter my-4">
+                Become a master in these fields
+            </h2>
+
+            <div class="container flex my-3">
+                <div class="card-bg">
+                    <h4>Front-End Development</h4>
+                    <img src="imgs/few.png" alt="">
+                </div>
+                <div class="card-bg">
+                    <h4>Back-End Development</h4>
+                    <img src="imgs/bew.png" alt="">
+                </div>
+                <div class="card-bg">
+                    <h4>Web Design</h4>
+                    <img src="imgs/design.png" alt="">
+                </div>
+                <div class="card-bg">
+                    <h4>Crypto</h4>
+                    <img src="imgs/crypto.webp" alt="">
+                </div>
+            </div>
+          </section>
+
+          <footer>    
+            <nav>
+                <h3>Certified G</h3>
+                <p>All rights reserved &copy;2023</p>
+                <ul class="footerNav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </nav>
+            <div class="networks">
+                <a href="#"><i class="fab fa-twitter fa-l"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-l"></i></a>
+                <a href="#"><i class="fab fa-twitch fa-l"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-l"></i></a>
+            </div>
+          </footer>
+
+    <!-- </div> -->
+</body>
+</html>
